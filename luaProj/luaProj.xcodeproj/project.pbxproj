@@ -41,6 +41,7 @@
 		292C574A1A0B7ECB0040015A /* lzio.c in Sources */ = {isa = PBXBuildFile; fileRef = 292C57281A0B7ECB0040015A /* lzio.c */; };
 		292C574B1A0B7ECB0040015A /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 292C572A1A0B7ECB0040015A /* Makefile */; };
 		292C574C1A0B7ECB0040015A /* print.c in Sources */ = {isa = PBXBuildFile; fileRef = 292C572B1A0B7ECB0040015A /* print.c */; };
+		292C574F1A0B82B50040015A /* lua2cpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 292C574D1A0B82B50040015A /* lua2cpp.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -114,6 +115,9 @@
 		292C57291A0B7ECB0040015A /* lzio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lzio.h; sourceTree = "<group>"; };
 		292C572A1A0B7ECB0040015A /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		292C572B1A0B7ECB0040015A /* print.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = print.c; sourceTree = "<group>"; };
+		292C574D1A0B82B50040015A /* lua2cpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lua2cpp.cpp; sourceTree = "<group>"; };
+		292C574E1A0B82B50040015A /* lua2cpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lua2cpp.h; sourceTree = "<group>"; };
+		292C57511A0B85B80040015A /* lua_cpp.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = lua_cpp.lua; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,9 @@
 			children = (
 				292C56F31A0B7ECB0040015A /* lua_5.1.4 */,
 				292C56EC1A0B7E930040015A /* main.c */,
+				292C574D1A0B82B50040015A /* lua2cpp.cpp */,
+				292C574E1A0B82B50040015A /* lua2cpp.h */,
+				292C57501A0B84270040015A /* luaexe */,
 			);
 			path = luaProj;
 			sourceTree = "<group>";
@@ -214,6 +221,14 @@
 			);
 			name = lua_5.1.4;
 			path = ../../lua_5.1.4;
+			sourceTree = "<group>";
+		};
+		292C57501A0B84270040015A /* luaexe */ = {
+			isa = PBXGroup;
+			children = (
+				292C57511A0B85B80040015A /* lua_cpp.lua */,
+			);
+			path = luaexe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +300,7 @@
 				292C57441A0B7ECB0040015A /* ltablib.c in Sources */,
 				292C574C1A0B7ECB0040015A /* print.c in Sources */,
 				292C57491A0B7ECB0040015A /* lvm.c in Sources */,
+				292C574F1A0B82B50040015A /* lua2cpp.cpp in Sources */,
 				292C57381A0B7ECB0040015A /* llex.c in Sources */,
 				292C573B1A0B7ECB0040015A /* loadlib.c in Sources */,
 				292C572E1A0B7ECB0040015A /* lbaselib.c in Sources */,

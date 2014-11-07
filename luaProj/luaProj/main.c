@@ -6,7 +6,10 @@
 //  Copyright (c) 2014年 cloudayc. All rights reserved.
 //
 
+#include "lua2cpp.h"
+
 int main (int argc, char **argv)
 {
+    main_cpp();
     return 0;
 }
